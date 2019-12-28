@@ -1,6 +1,6 @@
 # Idea
 The idea behind this is that the script will copy my dot files
-(.vimrc, .tmux, etc...) and upload them to github. This will allow easier setup and configuration of programs that I use day to day. 
+(.vimrc, .tmux, etc...) and upload them to github. This will allow easier setup and synch across multiple machins. This will also allow me to have an easy way to update all my dot files. 
 
 
 
@@ -13,4 +13,5 @@ Run with ```./update_git.sh [commit message]``` If you want to add a custom comm
 - [x] Push that folder to github.
 - [x] Pull folder and move dot files to their location. 
 - [ ] Easily add files to be pushed. 
+- [x] Ability to add commit messages. 
 
