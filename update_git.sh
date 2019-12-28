@@ -8,7 +8,7 @@ if [ $# -ne 0 ]
 then
 	if [ "$1" != "" ]
 	then
-		message='$*'
+		message="'$*'"
 	fi
 fi
 
