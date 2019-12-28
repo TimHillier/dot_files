@@ -4,9 +4,9 @@ The idea behind this is that the script will copy my dot files
 
 
 ## What I want it do be able to do
--[ ] Check for changes.	
--[x] Copy dot files to folder.
--[x] Push that folder to github.
--[x] Pull folder and move dot files to their location. 
--[ ] Easily add files to be pushed. 
+- [ ] Check for changes.	
+- [x] Copy dot files to folder.
+- [x] Push that folder to github.
+- [x] Pull folder and move dot files to their location. 
+- [ ] Easily add files to be pushed. 
 
