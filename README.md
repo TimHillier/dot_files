@@ -3,6 +3,10 @@ The idea behind this is that the script will copy my dot files
 (.vimrc, .tmux, etc...) and upload them to github. This will allow easier setup and configuration of programs that I use day to day. 
 
 
+
+# Use
+run with ```./update_git.sh [commit message]``` If you want to add a custom commit message you can, otherwise itjust defaults. 
+
 ## What I want it do be able to do
 - [ ] Check for changes.	
 - [x] Copy dot files to folder.
