@@ -5,6 +5,7 @@ The idea behind this is that the script will copy my dot files
 
 
 # Use
+Clone, then run the script. It will take care of getting and placing the dot files for you. 
 Run with ```./update_git.sh [commit message]``` If you want to add a custom commit message you can, otherwise it defaults to "Updated Dot Files". 
 
 ## What I want it do be able to do
@@ -14,4 +15,4 @@ Run with ```./update_git.sh [commit message]``` If you want to add a custom comm
 - [x] Pull folder and move dot files to their location. 
 - [ ] Easily add files to be pushed. 
 - [x] Ability to add commit messages. 
-
+- [ ] Ability to store and place more configuration files. 

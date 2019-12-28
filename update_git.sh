@@ -14,9 +14,15 @@ fi
 
 
 #the frist thing that I would want to do is copy the files here. 
-#this could possibly be an array...
-cp ~/.vimrc .
-cp ~/.tmux.conf . 
+#This should also check to see if these files exist before they try to copy them.
+files=(~/.vimrc ~/.tmux.conf)
+
+for i in "${files[@]}"
+do
+	if [ -f "$i" ]; then
+		cp "$i" .
+	fi
+done
 
 # After copying the files, we will want to add them to git, and commit them. 
 git pull
@@ -25,6 +31,7 @@ git commit -m "$message"
 git push
 
 # After updating git, update local
+#this should also be an array to copy them back. 
 cp .vimrc ~/.vimrc
 cp .tmux.conf ~/.tmux.conf
 
