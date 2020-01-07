@@ -1,7 +1,9 @@
 set number	" let there be line numbers
 set incsearch 	" search as characters are entered
 set hlsearch	" highlight matches	
+set expandtab	" use spaces when I press tab <3
 syntax enable	" enable Colors. 
+
 
 " Move vertically by visual line. 
 " Better for Long lines. 
@@ -15,5 +17,3 @@ inoremap jk <esc>
 set path+=**    " Search through all sub directories everywhere
 set wildmenu    " Display all matching files when tab complete
 
-
-"
