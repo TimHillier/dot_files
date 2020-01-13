@@ -16,7 +16,6 @@ Run with ```./update_git.sh [commit message]``` If you want to add a custom comm
 - [ ] Easily add files to be pushed. 
 - [x] Ability to add commit messages. 
 - [ ] Ability to store and place more configuration files. 
-- [ ] Some Kind of Logging
 - [x] Ability to create logs.
 
 # Needed Improvments
