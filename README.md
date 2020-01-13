@@ -6,7 +6,7 @@ The idea behind this is that the script will copy my dot files
 
 # Use
 Clone, then run the script. It will take care of getting and placing the dot files for you. 
-Run with ```./update_git.sh [commit message]``` If you want to add a custom commit message you can, otherwise it defaults to "Updated Dot Files". 
+Run with ```./update_git.sh [commit message]``` If you want to add a custom commit message you can, otherwise it defaults to "Updated Dot Files", You can change this default Commit Message.. 
 
 # What I want it do be able to do
 - [x] Check for changes.
@@ -16,7 +16,11 @@ Run with ```./update_git.sh [commit message]``` If you want to add a custom comm
 - [ ] Easily add files to be pushed. 
 - [x] Ability to add commit messages. 
 - [ ] Ability to store and place more configuration files. 
+<<<<<<< HEAD
 - [ ] Some Kind of Logging
+=======
+- [x] Ability to create logs.
+>>>>>>> 3f26c1f0ff65093e4f3c44958fabcbdf4c4abc4a
 
 # Needed Improvments
 1. Put files into their location better, right now its just 2 cp commands, it should really be a loop. 
