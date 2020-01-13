@@ -22,6 +22,9 @@ do
 	fi
 done
 
+# Add Hostname onto commit message
+message="$message --${HOSTNAME} "
+
 # After copying the files, we will want to add them to git, and commit them. 
 git pull
 git add .
@@ -37,14 +40,11 @@ cp .tmux.conf ~/.tmux.conf
 FILE=.updateLog.log
 
 # If the log file doesnt exist, create it. 
-if [ ! test -f "$FILE" ]; then
+if [ ! -f "$FILE" ]; then
 	echo "Created Update Log"
 	touch updateLog.log
-"test" >> "$FILE" 
+fi
+CURRENTDATE=`date +"%Y-%m-%d %T"`
 
-
-
-
-
-
+echo "UPDATED: " ${CURRENTDATE} ${message} >> "$FILE"
 
