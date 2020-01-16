@@ -17,3 +17,10 @@ inoremap jk <esc>
 set path+=**    " Search through all sub directories everywhere
 set wildmenu    " Display all matching files when tab complete
 
+" Show File name in vim.
+autocmd BufReadPost,FileReadPost,BufNewFile,BufEnter * call system("tmux rename-window 'vim | " . expand("%:t") . "'")
+
+" Clean up when you leave.
+autocmd VimLeave * call system("tmux rename-window 'tmux'")
+
+
