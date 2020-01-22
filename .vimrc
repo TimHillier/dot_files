@@ -23,4 +23,3 @@ autocmd BufReadPost,FileReadPost,BufNewFile,BufEnter * call system("tmux rename-
 " Clean up when you leave.
 autocmd VimLeave * call system("tmux rename-window 'tmux'")
 
-
