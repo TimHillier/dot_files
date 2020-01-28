@@ -20,3 +20,4 @@ Run with ```./update_git.sh [commit message]``` If you want to add a custom comm
 
 # Needed Improvments
 1. Put files into their location better, right now its just 2 cp commands, it should really be a loop. 
+2. Some kind of logging would be nice. Might want to keep those local though. That way you can see whats updated on each machine? 
